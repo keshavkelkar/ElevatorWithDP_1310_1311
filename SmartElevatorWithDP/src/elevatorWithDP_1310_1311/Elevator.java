@@ -3,11 +3,14 @@
  * Date Created:-7 June 2015
  * Date Modified:- 7 June 2015
  */
-
 package elevatorWithDP_1310_1311;
 
-public class Building {
+public class Elevator {
 
-	Elevator e = new Elevator();
-	Floor f = new Floor();
+	Elevator(){
+	System.out.println("1310");
+	}
+	
+	Door d = new Door();
+	FloorPannel fp = new FloorPannel();
 }

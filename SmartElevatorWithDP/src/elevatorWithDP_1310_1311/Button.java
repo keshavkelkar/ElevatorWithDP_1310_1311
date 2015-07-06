@@ -1,13 +1,10 @@
 /*Program:-
- * Author:- Keshav Murtimant Kelkar
+ * Author:- Scheweta G. Naik
  * Date Created:-7 June 2015
  * Date Modified:- 7 June 2015
  */
-
 package elevatorWithDP_1310_1311;
 
-public class Building {
+public interface Button {
 
-	Elevator e = new Elevator();
-	Floor f = new Floor();
 }
