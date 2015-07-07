@@ -11,7 +11,7 @@ public class Elevator {
 	System.out.println("1310");
 	}
 	
-	Door d = new Door();
+	//Door d = new Door();
 	FloorPannel fp = new FloorPannel();
 	//Context c = new Context(new Static());
 }

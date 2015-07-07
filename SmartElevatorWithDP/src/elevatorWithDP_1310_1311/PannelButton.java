@@ -5,6 +5,20 @@
  */
 package elevatorWithDP_1310_1311;
 
-public class PannelButton {
+public class PannelButton extends Button{
+
+	Integer id;
+	PannelButton(Integer id){
+		this.id=id;
+	}
+	
+	public Integer getButtonId(){
+		return id;
+	}
+	@Override
+	public void callElevator(Elevator e1, Integer dest, Integer curr) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

@@ -5,6 +5,7 @@
  */
 package elevatorWithDP_1310_1311;
 
-public class Door {
-
+public abstract class Door {
+	public String doorStatus;
+	public  abstract void handleDoor(DoorContext c);
 }

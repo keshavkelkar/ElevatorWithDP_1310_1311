@@ -5,6 +5,12 @@
  */
 package elevatorWithDP_1310_1311;
 
-public class FloorButton {
+public class FloorButton extends Button {
+
+	@Override
+	public void callElevator(Elevator e1, Integer dest, Integer curr) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
